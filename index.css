@@ -1,0 +1,101 @@
+.topnav {
+    background-color: #7600EC;
+    height: 25px
+}
+.topnav a {
+   color: yellow;
+   font-weight: bolder; 
+}
+.topnav a:hover {
+   color: white;
+   text-shadow: 1px 1px 2px; 
+}
+#signup {
+   position: absolute;
+   left: 60px; 
+}
+#about {
+   position: absolute;
+   left: 140px; 
+}
+body {
+    background-color: #B353FF;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+   text-align: center;
+   position:relative;
+   top: -20px;
+   font-size: 250%;
+   font-family:Georgia, 'Times New Roman', Times, serif ;
+   background-image: linear-gradient(#FFF735, #00FFD1);
+   background-size: 100%; 
+   background-clip: text;
+   -webkit-text-fill-color: transparent;  
+}
+#underline {
+    position: absolute;
+    top: -10px;
+    left: -8px;
+    width: 480px;
+    height: 200px;
+    z-index: -1;
+}
+h2 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 10;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 100%;
+}
+p.hello {
+    position: absolute;
+    top: 770px;
+}
+h3 {
+ background-color: yellow;
+ color: #7600EC;
+ font-family:cursive
+}
+p.main {
+    color: white;
+    text-align: left;
+    margin-right: 120px;
+}
+#painting1 {
+    position: relative;
+    width: 120px;
+    height: auto;
+    left: 1px;
+    top: -80px;
+}
+p.second {
+    color: white;
+    margin-top: 60px;
+}
+#painting2 {
+    position: relative;
+    width: 460px;
+    top: -60px
+}
+#paintsplash {
+    position: relative;
+    width: 380px;
+    z-index: -1;
+    height: 140px;
+    top: -470px;
+    left: -45px;
+}
+p.contact {
+    color: white;
+    margin-top: -200px;
+    background-color: black;
+    height: 20px;
+}
